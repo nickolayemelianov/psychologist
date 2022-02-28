@@ -356,7 +356,7 @@ transform 800ms, -webkit-transform 800ms;
 
 .consult__row1-txt li {
     list-style: circle;
-
+    margin: 1rem 0;
 }
 
 .features {
@@ -619,7 +619,7 @@ transform 800ms, -webkit-transform 800ms;
             justify-content: center;
     max-width: 100%;
     max-height: 100%;
-    padding: 2rem 0;
+    margin: 3rem 0;
     margin-bottom: 6rem;
   
 }
@@ -640,6 +640,15 @@ transform 800ms, -webkit-transform 800ms;
     padding: 1rem;
     max-width: 20rem;
     font-size: 1.4rem;
+}
+
+.exp__1-link {
+    text-decoration: underline;
+    transition: all 0.2s;
+}
+
+.exp__1-link:hover {
+    opacity: 0.6;
 }
 
 .exp__2 {
@@ -804,6 +813,14 @@ footer {
 .footer {
     margin: 0;
     padding: 0.7rem 1rem;
+}
+
+.footer__link {
+    transition: all 0.3s;
+}
+
+.footer__link:hover {
+    opacity: 0.6;
 }
 
 
