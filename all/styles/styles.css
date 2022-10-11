@@ -273,8 +273,8 @@ padding: 0 0 1rem 3rem;
 
 .problems__list li {
  list-style: none;
- font-size: 1.3rem;   
- line-height: 2.8rem; 
+ font-size: 1.3rem;
+ line-height: 2.8rem;
  letter-spacing: 0.1rem;
  -webkit-transition:
 -webkit-transform 800ms;
@@ -286,7 +286,7 @@ transform 800ms;
 transform 800ms;
  transition:
 transform 800ms, -webkit-transform 800ms;
- 
+
 }
 
 .problems__list li:hover {
@@ -351,12 +351,23 @@ transform 800ms, -webkit-transform 800ms;
 
 .consult__row1-txt p {
  padding: 1rem 1rem 0 0
- 
+
 }
 
 .consult__row1-txt li {
     list-style: circle;
     margin: 1rem 0;
+}
+
+.consult__price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.consult__price-col p {
+  padding: 0;
 }
 
 .features {
@@ -398,7 +409,7 @@ transform 800ms, -webkit-transform 800ms;
 }
 
 
-.features__item:hover, 
+.features__item:hover,
 .features__item:focus,
 .features__item:active {
         border-color: #254361;
@@ -456,7 +467,7 @@ transform 800ms, -webkit-transform 800ms;
         align-content: center;
     text-align: center;
     font-size: 1.3rem;
-    
+
 }
 
 .connect__txt {
@@ -493,9 +504,9 @@ transform 800ms, -webkit-transform 800ms;
         -ms-flex-direction: row;
             flex-direction: row;
     -webkit-animation: ballIcon 2.5s;
-            animation: ballIcon 2.5s; 
-    -webkit-animation-iteration-count: infinite; 
-            animation-iteration-count: infinite; 
+            animation: ballIcon 2.5s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
 
 }
 
@@ -513,8 +524,8 @@ transform 800ms, -webkit-transform 800ms;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    
-    
+
+
 }
 
 
@@ -621,7 +632,7 @@ transform 800ms, -webkit-transform 800ms;
     max-height: 100%;
     margin: 3rem 0;
     margin-bottom: 6rem;
-  
+
 }
 
 .exp__txt {
@@ -695,7 +706,7 @@ transform 800ms, -webkit-transform 800ms;
 
 .youtube__video {
     text-align: center;
-    
+
 }
 
 .youtube__txt {
@@ -786,7 +797,7 @@ transform 800ms, -webkit-transform 800ms;
     margin-top: 4rem;
 }
 
-.media__slider .slick-arrow.slick-prev, 
+.media__slider .slick-arrow.slick-prev,
 .media__slider .slick-arrow.slick-next {
     visibility: hidden;
 }
@@ -930,7 +941,7 @@ footer {
         font-size: 1rem;
     }
 
-    .slider .slick-arrow.slick-prev, 
+    .slider .slick-arrow.slick-prev,
     .slider .slick-arrow.slick-next {
     visibility: hidden;
     }
@@ -960,7 +971,7 @@ footer {
 
 
 @media (max-width: 576px) {
-    
+
     .container{
         max-width: 500px;
         padding: 0 10px;
